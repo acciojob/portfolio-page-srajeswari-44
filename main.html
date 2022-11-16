@@ -4,44 +4,24 @@
   <head>
     <link rel="stylesheet" href="styles.css" />
     <style>
-      img {
-        border-radius: 10%;
-        height: 100px;
-        border-color: rgb(192, 23, 46);
-        margin-left: 5%;
+      button {
+        border-radius: 5px;
+        background-color: black;
+		color: white;
+		border: none;
+        cursor: pointer;
+        transition-duration: 0.4s;
       }
-      h2 {
-        margin-left: 3%;
-        color: rgb(0, 211, 21);
+      button:hover {
+        background-color: yellow;
+        color: black;
+		border-radius: 30px;
       }
     </style>
   </head>
 
   <body>
-    <div>
-      <img src="Raji.JPG" alt="raji" />
-    </div>
-    
-      <h1>rajeswari</h1>
-   
-    <a href="https://www.linkedin.com/in/hemant-kumar-0a9b69bb/"
-      >linkdin Profile</a
-    >
-    <label for="linkedin"></label><br />
-
-    <section id="skills">
-      Skills - Anaylitical skill, decision making skills, java.
-    </section>
-    <br />
-    <section id="projects">
-      Projects
-
-      <ul>
-        <li>Students Database managemant application</li>
-        <li>Transform Petrol Engine to E-Bike</li>
-      </ul>
-    </section>
-
+    <button type="submit" id="btn">submit</button>
     <!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js"></script>
   </body>
